@@ -1,5 +1,3 @@
-///ANSWER OF THE FIRST QUESTION
-
 import express from "express";
 import { signup, login } from "../controllers/userController.js";
 

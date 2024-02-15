@@ -1,5 +1,3 @@
-///ANSWER OF THE THIRD QUESTION
-
 import express from "express";
 import { handShake,setUserSession,closeSession,setUserProjects } from "../controllers/projectController.js";
 import authenticate from "../middleware/authenticate.js";

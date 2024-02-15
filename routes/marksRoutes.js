@@ -1,5 +1,3 @@
-///ANSWER OF THE THIRD QUESTION
-
 import express from "express";
 import { professorAddMarks } from "../controllers/marksController.js";
 import authenticate from "../middleware/authenticate.js";
