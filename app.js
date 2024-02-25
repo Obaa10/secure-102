@@ -19,10 +19,7 @@ class App {
         process.env.DATABASE_PASSWORD
       );
       mongoose
-        .connect(DB, {
-          useNewUrlParser: true,
-          useUnifiedTopology: true,
-        })
+        .connect(DB)
         .then(() => console.log("DB connection went successful!"));
       console.log("Connected to MongoDB");
     } catch (err) {
